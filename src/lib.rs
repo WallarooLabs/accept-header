@@ -17,7 +17,7 @@ pub type Quality = R32;
 #[derive(Debug, Clone, PartialEq, Eq, PartialOrd, Ord, Hash)]
 pub struct Accept {
     /// This is always stored in descending order of quality.
-    media_types: Vec<MediaType>,
+    pub media_types: Vec<MediaType>,
 }
 
 impl Accept {
