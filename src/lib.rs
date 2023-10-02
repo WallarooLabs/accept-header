@@ -21,7 +21,7 @@ pub struct Accept {
 }
 
 impl Accept {
-    pub const HEADER_NAME: &str = "accept";
+    pub const HEADER_NAME: &'static str = "accept";
 
     /// Parse the complete header, including the header name.
     ///
